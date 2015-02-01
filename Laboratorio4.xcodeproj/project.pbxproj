@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		8D6779921A7A9E42003F9076 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6779911A7A9E42003F9076 /* main.m */; };
 		8D6779951A7A9E42003F9076 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6779941A7A9E42003F9076 /* AppDelegate.m */; };
-		8D6779981A7A9E42003F9076 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6779971A7A9E42003F9076 /* ViewController.m */; };
+		8D6779981A7A9E42003F9076 /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6779971A7A9E42003F9076 /* TapViewController.m */; };
 		8D67799B1A7A9E42003F9076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6779991A7A9E42003F9076 /* Main.storyboard */; };
 		8D67799D1A7A9E42003F9076 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D67799C1A7A9E42003F9076 /* Images.xcassets */; };
 		8D6779A01A7A9E42003F9076 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D67799E1A7A9E42003F9076 /* LaunchScreen.xib */; };
 		8D6779AC1A7A9E42003F9076 /* Laboratorio4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6779AB1A7A9E42003F9076 /* Laboratorio4Tests.m */; };
+		8DF7CADD1A7AE98100D3D29F /* button_tap_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DF7CAD51A7AE98100D3D29F /* button_tap_deselected.png */; };
+		8DF7CADE1A7AE98100D3D29F /* button_tap_deselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DF7CAD61A7AE98100D3D29F /* button_tap_deselected@2x.png */; };
+		8DF7CADF1A7AE98100D3D29F /* button_tap_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DF7CAD71A7AE98100D3D29F /* button_tap_selected.png */; };
+		8DF7CAE01A7AE98100D3D29F /* button_tap_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DF7CAD81A7AE98100D3D29F /* button_tap_selected@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,18 @@
 		8D6779911A7A9E42003F9076 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D6779931A7A9E42003F9076 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D6779941A7A9E42003F9076 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8D6779961A7A9E42003F9076 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8D6779971A7A9E42003F9076 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D6779961A7A9E42003F9076 /* TapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		8D6779971A7A9E42003F9076 /* TapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
 		8D67799A1A7A9E42003F9076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D67799C1A7A9E42003F9076 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8D67799F1A7A9E42003F9076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8D6779A51A7A9E42003F9076 /* Laboratorio4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laboratorio4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6779AA1A7A9E42003F9076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D6779AB1A7A9E42003F9076 /* Laboratorio4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laboratorio4Tests.m; sourceTree = "<group>"; };
+		8DF7CAD51A7AE98100D3D29F /* button_tap_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_tap_deselected.png; path = ../../../../../Downloads/TapMe_Resources/button_tap_deselected.png; sourceTree = "<group>"; };
+		8DF7CAD61A7AE98100D3D29F /* button_tap_deselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button_tap_deselected@2x.png"; path = "../../../../../Downloads/TapMe_Resources/button_tap_deselected@2x.png"; sourceTree = "<group>"; };
+		8DF7CAD71A7AE98100D3D29F /* button_tap_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_tap_selected.png; path = ../../../../../Downloads/TapMe_Resources/button_tap_selected.png; sourceTree = "<group>"; };
+		8DF7CAD81A7AE98100D3D29F /* button_tap_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button_tap_selected@2x.png"; path = "../../../../../Downloads/TapMe_Resources/button_tap_selected@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +89,11 @@
 		8D67798E1A7A9E42003F9076 /* Laboratorio4 */ = {
 			isa = PBXGroup;
 			children = (
+				8DF7CAE61A7AE9BD00D3D29F /* efectos */,
 				8D6779931A7A9E42003F9076 /* AppDelegate.h */,
 				8D6779941A7A9E42003F9076 /* AppDelegate.m */,
-				8D6779961A7A9E42003F9076 /* ViewController.h */,
-				8D6779971A7A9E42003F9076 /* ViewController.m */,
+				8D6779961A7A9E42003F9076 /* TapViewController.h */,
+				8D6779971A7A9E42003F9076 /* TapViewController.m */,
 				8D6779991A7A9E42003F9076 /* Main.storyboard */,
 				8D67799C1A7A9E42003F9076 /* Images.xcassets */,
 				8D67799E1A7A9E42003F9076 /* LaunchScreen.xib */,
@@ -117,6 +126,17 @@
 				8D6779AA1A7A9E42003F9076 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DF7CAE61A7AE9BD00D3D29F /* efectos */ = {
+			isa = PBXGroup;
+			children = (
+				8DF7CAD51A7AE98100D3D29F /* button_tap_deselected.png */,
+				8DF7CAD61A7AE98100D3D29F /* button_tap_deselected@2x.png */,
+				8DF7CAD71A7AE98100D3D29F /* button_tap_selected.png */,
+				8DF7CAD81A7AE98100D3D29F /* button_tap_selected@2x.png */,
+			);
+			name = efectos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +219,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF7CADF1A7AE98100D3D29F /* button_tap_selected.png in Resources */,
 				8D67799B1A7A9E42003F9076 /* Main.storyboard in Resources */,
+				8DF7CADD1A7AE98100D3D29F /* button_tap_deselected.png in Resources */,
 				8D6779A01A7A9E42003F9076 /* LaunchScreen.xib in Resources */,
+				8DF7CAE01A7AE98100D3D29F /* button_tap_selected@2x.png in Resources */,
 				8D67799D1A7A9E42003F9076 /* Images.xcassets in Resources */,
+				8DF7CADE1A7AE98100D3D29F /* button_tap_deselected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D6779981A7A9E42003F9076 /* ViewController.m in Sources */,
+				8D6779981A7A9E42003F9076 /* TapViewController.m in Sources */,
 				8D6779951A7A9E42003F9076 /* AppDelegate.m in Sources */,
 				8D6779921A7A9E42003F9076 /* main.m in Sources */,
 			);
@@ -412,6 +436,7 @@
 				8D6779B11A7A9E42003F9076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D6779B21A7A9E42003F9076 /* Build configuration list for PBXNativeTarget "Laboratorio4Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +445,7 @@
 				8D6779B41A7A9E42003F9076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
