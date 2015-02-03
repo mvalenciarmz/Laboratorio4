@@ -95,6 +95,10 @@
     if ( intSegundos == 0 ) {
         [timer invalidate];
         bolJugando = false;
+        
+        // Cuando se acabe el tiempo, inmediatamente mandamos a la pantalla de scores
+        [self performSegueWithIdentifier:@"sequelMostrarTabla"  sender:self];
+        
     }
 }
 

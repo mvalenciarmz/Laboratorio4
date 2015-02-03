@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D041E061A800F34002C5AFD /* button_tap_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D041E021A800F34002C5AFD /* button_tap_deselected.png */; };
+		8D041E071A800F34002C5AFD /* button_tap_deselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D041E031A800F34002C5AFD /* button_tap_deselected@2x.png */; };
+		8D041E081A800F34002C5AFD /* button_tap_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D041E041A800F34002C5AFD /* button_tap_selected.png */; };
+		8D041E091A800F34002C5AFD /* button_tap_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D041E051A800F34002C5AFD /* button_tap_selected@2x.png */; };
+		8D041E0F1A812B78002C5AFD /* TablaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D041E0E1A812B78002C5AFD /* TablaViewController.m */; };
 		8D6779921A7A9E42003F9076 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6779911A7A9E42003F9076 /* main.m */; };
 		8D6779951A7A9E42003F9076 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6779941A7A9E42003F9076 /* AppDelegate.m */; };
 		8D6779981A7A9E42003F9076 /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6779971A7A9E42003F9076 /* TapViewController.m */; };
@@ -14,10 +19,6 @@
 		8D67799D1A7A9E42003F9076 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D67799C1A7A9E42003F9076 /* Images.xcassets */; };
 		8D6779A01A7A9E42003F9076 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D67799E1A7A9E42003F9076 /* LaunchScreen.xib */; };
 		8D6779AC1A7A9E42003F9076 /* Laboratorio4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6779AB1A7A9E42003F9076 /* Laboratorio4Tests.m */; };
-		8DF7CADD1A7AE98100D3D29F /* button_tap_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DF7CAD51A7AE98100D3D29F /* button_tap_deselected.png */; };
-		8DF7CADE1A7AE98100D3D29F /* button_tap_deselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DF7CAD61A7AE98100D3D29F /* button_tap_deselected@2x.png */; };
-		8DF7CADF1A7AE98100D3D29F /* button_tap_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DF7CAD71A7AE98100D3D29F /* button_tap_selected.png */; };
-		8DF7CAE01A7AE98100D3D29F /* button_tap_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DF7CAD81A7AE98100D3D29F /* button_tap_selected@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D041E021A800F34002C5AFD /* button_tap_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_tap_deselected.png; path = "../../../../../Downloads/TapMe_Resources-2/button_tap_deselected.png"; sourceTree = "<group>"; };
+		8D041E031A800F34002C5AFD /* button_tap_deselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button_tap_deselected@2x.png"; path = "../../../../../Downloads/TapMe_Resources-2/button_tap_deselected@2x.png"; sourceTree = "<group>"; };
+		8D041E041A800F34002C5AFD /* button_tap_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_tap_selected.png; path = "../../../../../Downloads/TapMe_Resources-2/button_tap_selected.png"; sourceTree = "<group>"; };
+		8D041E051A800F34002C5AFD /* button_tap_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button_tap_selected@2x.png"; path = "../../../../../Downloads/TapMe_Resources-2/button_tap_selected@2x.png"; sourceTree = "<group>"; };
+		8D041E0D1A812B78002C5AFD /* TablaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablaViewController.h; sourceTree = SOURCE_ROOT; };
+		8D041E0E1A812B78002C5AFD /* TablaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TablaViewController.m; sourceTree = SOURCE_ROOT; };
 		8D67798C1A7A9E42003F9076 /* Laboratorio4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laboratorio4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6779901A7A9E42003F9076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D6779911A7A9E42003F9076 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,10 +51,6 @@
 		8D6779A51A7A9E42003F9076 /* Laboratorio4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laboratorio4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6779AA1A7A9E42003F9076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D6779AB1A7A9E42003F9076 /* Laboratorio4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laboratorio4Tests.m; sourceTree = "<group>"; };
-		8DF7CAD51A7AE98100D3D29F /* button_tap_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_tap_deselected.png; path = ../../../../../Downloads/TapMe_Resources/button_tap_deselected.png; sourceTree = "<group>"; };
-		8DF7CAD61A7AE98100D3D29F /* button_tap_deselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button_tap_deselected@2x.png"; path = "../../../../../Downloads/TapMe_Resources/button_tap_deselected@2x.png"; sourceTree = "<group>"; };
-		8DF7CAD71A7AE98100D3D29F /* button_tap_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_tap_selected.png; path = ../../../../../Downloads/TapMe_Resources/button_tap_selected.png; sourceTree = "<group>"; };
-		8DF7CAD81A7AE98100D3D29F /* button_tap_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button_tap_selected@2x.png"; path = "../../../../../Downloads/TapMe_Resources/button_tap_selected@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 			children = (
 				8DF7CAE61A7AE9BD00D3D29F /* efectos */,
 				8D6779931A7A9E42003F9076 /* AppDelegate.h */,
+				8D041E0D1A812B78002C5AFD /* TablaViewController.h */,
+				8D041E0E1A812B78002C5AFD /* TablaViewController.m */,
 				8D6779941A7A9E42003F9076 /* AppDelegate.m */,
 				8D6779961A7A9E42003F9076 /* TapViewController.h */,
 				8D6779971A7A9E42003F9076 /* TapViewController.m */,
@@ -131,10 +136,10 @@
 		8DF7CAE61A7AE9BD00D3D29F /* efectos */ = {
 			isa = PBXGroup;
 			children = (
-				8DF7CAD51A7AE98100D3D29F /* button_tap_deselected.png */,
-				8DF7CAD61A7AE98100D3D29F /* button_tap_deselected@2x.png */,
-				8DF7CAD71A7AE98100D3D29F /* button_tap_selected.png */,
-				8DF7CAD81A7AE98100D3D29F /* button_tap_selected@2x.png */,
+				8D041E021A800F34002C5AFD /* button_tap_deselected.png */,
+				8D041E031A800F34002C5AFD /* button_tap_deselected@2x.png */,
+				8D041E041A800F34002C5AFD /* button_tap_selected.png */,
+				8D041E051A800F34002C5AFD /* button_tap_selected@2x.png */,
 			);
 			name = efectos;
 			sourceTree = "<group>";
@@ -219,13 +224,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DF7CADF1A7AE98100D3D29F /* button_tap_selected.png in Resources */,
+				8D041E081A800F34002C5AFD /* button_tap_selected.png in Resources */,
 				8D67799B1A7A9E42003F9076 /* Main.storyboard in Resources */,
-				8DF7CADD1A7AE98100D3D29F /* button_tap_deselected.png in Resources */,
+				8D041E061A800F34002C5AFD /* button_tap_deselected.png in Resources */,
 				8D6779A01A7A9E42003F9076 /* LaunchScreen.xib in Resources */,
-				8DF7CAE01A7AE98100D3D29F /* button_tap_selected@2x.png in Resources */,
+				8D041E091A800F34002C5AFD /* button_tap_selected@2x.png in Resources */,
 				8D67799D1A7A9E42003F9076 /* Images.xcassets in Resources */,
-				8DF7CADE1A7AE98100D3D29F /* button_tap_deselected@2x.png in Resources */,
+				8D041E071A800F34002C5AFD /* button_tap_deselected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +251,7 @@
 				8D6779981A7A9E42003F9076 /* TapViewController.m in Sources */,
 				8D6779951A7A9E42003F9076 /* AppDelegate.m in Sources */,
 				8D6779921A7A9E42003F9076 /* main.m in Sources */,
+				8D041E0F1A812B78002C5AFD /* TablaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,6 +29,12 @@
                                 <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sc3-cs-Viv">
+                                <rect key="frame" x="98" y="173" width="106" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.16193190530000001" green="0.67270823310000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6d5-Ka-osl">
                                 <rect key="frame" x="21" y="242" width="278" height="265"/>
                                 <state key="normal" image="button_tap_deselected.png">
@@ -42,12 +48,6 @@
                                     <action selector="btnPresionado:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vp0-IO-1Cf"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sc3-cs-Viv">
-                                <rect key="frame" x="98" y="173" width="106" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.16193190530000001" green="0.67270823310000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -66,10 +66,60 @@
                         <outlet property="btnMensaje" destination="6d5-Ka-osl" id="lSZ-5i-GxV"/>
                         <outlet property="lblContador" destination="hy9-j0-1mw" id="H5b-sF-b1A"/>
                         <outlet property="lblScore" destination="Sc3-cs-Viv" id="Z35-Rx-CHw"/>
+                        <segue destination="z1L-jY-v3i" kind="presentation" identifier="sequelMostrarTabla" id="0C2-BB-MzU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Tabla View Controller-->
+        <scene sceneID="dhR-Vb-sIt">
+            <objects>
+                <viewController id="z1L-jY-v3i" customClass="TablaViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0KP-Nk-JGM"/>
+                        <viewControllerLayoutGuide type="bottom" id="Stl-x5-kJh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="y2c-NY-l2T">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="jxL-Lm-zod">
+                                <rect key="frame" x="21" y="28" width="278" height="445"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="z1L-jY-v3i" id="86P-LG-Na2"/>
+                                    <outlet property="delegate" destination="z1L-jY-v3i" id="sSs-cj-49P"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pVK-hc-cCx">
+                                <rect key="frame" x="121" y="500" width="78" height="30"/>
+                                <state key="normal" title="Regresar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="presentation" id="3jJ-8q-73o"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="pVK-hc-cCx" secondAttribute="trailing" constant="105" id="06r-49-efu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jxL-Lm-zod" secondAttribute="trailing" constant="5" id="1X6-0m-MaU"/>
+                            <constraint firstItem="jxL-Lm-zod" firstAttribute="leading" secondItem="y2c-NY-l2T" secondAttribute="leadingMargin" constant="5" id="680-Aw-FsS"/>
+                            <constraint firstItem="pVK-hc-cCx" firstAttribute="top" secondItem="jxL-Lm-zod" secondAttribute="bottom" constant="27" id="tjH-4n-dLY"/>
+                            <constraint firstItem="pVK-hc-cCx" firstAttribute="leading" secondItem="y2c-NY-l2T" secondAttribute="leadingMargin" constant="105" id="zJg-IY-Bbp"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="tablaScores" destination="jxL-Lm-zod" id="cg5-as-Ui6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u6l-ln-J6m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="757" y="306"/>
         </scene>
     </scenes>
     <resources>
